@@ -1,10 +1,10 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background: url(https://images.unsplash.com/photo-1648738672561-51e079480da7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDcwfGJEbzQ4Y1Vod25ZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background: url(https://media.istockphoto.com/photos/abstract-white-background-with-soft-3d-shapes-picture-id1386255468?k=20&m=1386255468&s=170667a&w=0&h=O9zA700XpTlxaLMbvz0-PFi-3TEJruiotvIgJE-RaQQ=);
     background-size: cover;
 }
 .register{
@@ -117,11 +117,14 @@ body{
 .login .content {
     max-width: 800px;
     text-align: center;
-    color: #fff;
+    background: #575af5;
+
+
   }
   .login .content h2{
     font-size: 36px;
     font-weight: bold;
+    color: white;
   }
   .login .loginform{
     width: 40%;
@@ -154,11 +157,22 @@ body{
   }
    .login .loginform .fgp{
     margin-top: 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
     text-align: center;
+    font-size: 1.2rem;
    }
+
+   .login .loginform .fgp a{
+    text-decoration: none;
+   }
+
    
 
-   Success Page
+   /* Success Page */
    section{
     width: 100%;
     height: 100vh;
@@ -180,8 +194,8 @@ section .content {
   }
   section .content i{
     font-size: 8rem;
-    color: #575af5;
-    border: 2px solid #575af5;
+    color: green;
+    border: 2px solid green;
     border-radius: 50%;
   }
   section .content h2{
