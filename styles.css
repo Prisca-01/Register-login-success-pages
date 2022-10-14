@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://images.unsplash.com/photo-1648738672561-51e079480da7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDcwfGJEbzQ4Y1Vod25ZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+.register{
+    width: 100%;
+    height: 100vh;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.register .content {
+    max-width: 800px;
+    text-align: center;
+    color: #fff;
+  }
+  .register .content h2{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .registerform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+  }
+  .register .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .register .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  .registerform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: .5s;
+    color: #666;
+  }
+  .registerform .inputbox select{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid;
+    margin-top: 10px;
+  }
+  .registerform .inputbox input:focus ~ span,
+  .registerform .inputbox input:valid ~ span
+  {
+    color: #333;
+    font-size: 12px;
+    transform: translateY(-20px)
+  }
+  .registerform .inputbox button{
+    width: 40%;
+    height: 55px;
+    background: #460ee0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  } 
+  .registerform .inputbox button:hover{
+    opacity: 0.4;
+  }
+  .registerform .fgp p{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .registerform .fgp button{
+    background-color: #575af5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+  }
+  .registerform .fgp button:hover{
+    opacity: 0.4;
+  }
+
+
+  /* Login Page Styling */
+  .login{
+    width: 100%;
+    height: 100vh;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+ }
+.login .content {
+    max-width: 800px;
+    text-align: center;
+    color: #fff;
+  }
+  .login .content h2{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .login .loginform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+  }
+
+  .login .loginform .details input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+    .login .loginform  .details button {
+    background-color: #575af5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .login .loginform .details button:hover {
+    opacity: 0.8;
+  }
+  .login .loginform .details label{
+    font-size: 1rem;
+  }
+   .login .loginform .fgp{
+    margin-top: 16px;
+    text-align: center;
+   }
+   
+
+   Success Page
+   section{
+    width: 100%;
+    height: 100vh;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+ }
+section .content {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  section .content i{
+    font-size: 8rem;
+    color: #575af5;
+    border: 2px solid #575af5;
+    border-radius: 50%;
+  }
+  section .content h2{
+    font-size: 3rem;
+  }
+  section .content button{
+    background-color: #575af5;
+    color: white;
+    margin-top: 15px;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+  }
+  section .content button:hover{
+    opacity: 0.6;
+  }
